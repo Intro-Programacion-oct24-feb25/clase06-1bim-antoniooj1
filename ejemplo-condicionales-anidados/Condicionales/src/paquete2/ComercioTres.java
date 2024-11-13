@@ -52,7 +52,6 @@ public class ComercioTres {
         System.out.println("Ingrese el número de productos vendidos "
                 + "por favor");
         numeroProductos = entrada.nextInt();
-        entrada.nextInt();
         System.out.println("Ingrese el porcentaje del seguro");
         porcentajeSeguro = entrada.nextInt();
         
