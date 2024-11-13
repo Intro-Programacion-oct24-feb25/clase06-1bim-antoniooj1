@@ -26,6 +26,7 @@ public class EjemploCadenas02 {
         cadenaFinal = String.format("%sCiudad:%s\n",
                 cadenaFinal, ciudad);
         // System.out.printf("%s\n", cadenaFinal);
+         //string.format sirve para acumular datos en una cadena
         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
