@@ -61,21 +61,36 @@ public class ComercioTres {
             porcentajeSeguro = porcentajeSeguro + 0;
         } else {
             porcentajeSeguro = 10;
+            //funciona ya que al introducir un numero mayor o igual al 1 y
+            // menor o igual al 15 se presenta este valor y caso contrario se 
+            // muestra el 10 ya que la condicion es falsa
+            
         }
 
         // opción 2
+        /*
         if (porcentajeSeguro > 15) {
-            porcentajeSeguro = 10;
+            //porcentajeSeguro = 10;
+            // La dos funciona pero si introduces un valor negativo seria 
+            //incorrecto por lo ccual es incorrecta
+            
         }
 
          // opción 3
         if (porcentajeSeguro < 1 || porcentajeSeguro > 15) {
-            porcentajeSeguro = 10;
+            //porcentajeSeguro = 10;
+            // la tres funciona debido a que si ingresamos un valor en el rango 
+            // entre 1 y 15 las dos son falsas y se hacen verdaderas y si 
+            //ingresamos otro valor sale el 10
         }
 
         // opción 4
         if (porcentajeSeguro < 1 && porcentajeSeguro > 15) {
-            porcentajeSeguro = 10;
+            //porcentajeSeguro = 10;
+           //la tres no funciona debido a que si ingresamos un valor en el rango 
+           // entre 1 y 15 las dos son falsas y al tener and se convierte en 
+           // falso por lo cual se convierte en 10
+           
         }
         
         // calcular la productividad
