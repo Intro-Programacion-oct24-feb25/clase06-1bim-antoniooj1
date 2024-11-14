@@ -95,8 +95,9 @@ public class Ejemplo021 {
                 break;
                 
         }
+
         System.out.printf("usted ha nacido el %d de %s de %d\n",
-                dia, mesCadena , year);
+                dia, mesCadena.toUpperCase() , year);
 
     }
 }
